@@ -1,0 +1,10 @@
+{
+	"private": true,
+	"author": "LTiollier <ltiollier30@gmail.com>",
+	"license": "MIT",
+	"preset": "preset.ts",
+	"devDependencies": {
+		"@preset/core": "^0.5.8",
+		"@types/node": "^17.0.23"
+	}
+}

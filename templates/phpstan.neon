@@ -1,0 +1,17 @@
+includes:
+    - ./vendor/nunomaduro/larastan/extension.neon
+    - ./vendor/phpstan/phpstan-webmozart-assert/extension.neon
+    - ./vendor/thecodingmachine/phpstan-safe-rule/phpstan-safe-rule.neon
+
+parameters:
+    paths:
+        - app
+
+    level: max
+
+    excludePaths:
+        - app/Exceptions/Handler.php
+
+    ignoreErrors:
+
+    checkMissingIterableValueType: false
