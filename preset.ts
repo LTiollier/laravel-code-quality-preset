@@ -13,7 +13,7 @@ export default definePreset({
 		})
 
 		await installPackages({
-			title: 'Install PHPStan, PHPCsFixer and CodeSniffer package',
+			title: 'Install PHPStan, PHPCsFixer and CodeSniffer packages',
 			for: 'php',
 			install: [
 				'friendsofphp/php-cs-fixer',

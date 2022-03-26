@@ -15,7 +15,7 @@
 
     1/4: Extract configs
     2/4: Install Assert package
-    3/4: Install PHPStan, PHPCsFixer and CodeSniffer package
+    3/4: Install PHPStan, PHPCsFixer and CodeSniffer packages
     4/4: Update composer.json
 </div>
 
