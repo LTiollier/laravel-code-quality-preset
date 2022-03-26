@@ -2,7 +2,10 @@ export default definePreset({
 	name: 'quality-code-preset',
 	options: {},
 	handler: async() => {
-		await extractTemplates()
+		await extractTemplates({
+			title: 'Extract configs',
+			extractDotFiles: true,
+		})
 
 		await installPackages({
 			title: 'Install Assert package',
